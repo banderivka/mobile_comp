@@ -42,7 +42,6 @@ void Widget::createGroupBoxWithAnswerButtons()
 
     for (int j = 0; j < NumGridRows; ++j)
     {
-        //hlayout[j]->addStretch();
         for (int i = 0; i < NumButtons; ++i)
         {
             int k = i + j*NumButtons;
@@ -51,7 +50,6 @@ void Widget::createGroupBoxWithAnswerButtons()
             _gTestButtons->addButton(_testButtons[k], k);
              hlayout[j]->addWidget(_testButtons[k]);
         }
-        //hlayout[j]->addStretch();
         vlayout->addLayout(hlayout[j]);
     }
 

@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>files/test.xml</file>
+        <file>files/authdata.txt</file>
     </qresource>
 </RCC>

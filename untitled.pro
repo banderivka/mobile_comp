@@ -19,11 +19,13 @@ QMAKE_LFLAGS +=  -std=c++11
 SOURCES += main.cpp\
         widget.cpp \
     questionClass.cpp \
-    testClass.cpp
+    testClass.cpp \
+    logindialog.cpp
 
 HEADERS  += widget.h \
     questionClass.h \
-    testClass.h
+    testClass.h \
+    logindialog.h
 
 FORMS    += widget.ui
 
